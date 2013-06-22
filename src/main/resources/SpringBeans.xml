@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+        >
+    <bean id="injectName" class="com.mkyong.core.HelloWorld">
+        <property name="name" value="Zhanhonglai"/>
+    </bean>
+    <bean id="injectAge" class="com.mkyong.core.HelloWorld">
+        <property name="age" value="18"/>
+    </bean>
+</beans>
